@@ -1,0 +1,41 @@
+/****** Animations *******/
+@import "./variables.scss";
+
+@keyframes rotation {
+  from {
+    border-style: solid; // for overload ui
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    background-color:rgba(62, 17, 255, 0.3); // for overload ui
+    transform: scale( .97 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .97 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .97 );
+  }
+  100%
+  {
+    transform: scale( .97 );
+  }
+}
