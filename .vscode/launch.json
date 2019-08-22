@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ng serve",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200",
+            "webRoot": "${workspaceFolder}/angular-web-workers",
+            "sourceMaps": true,
+            "trace": true,
+            // Don't use default port 9222
+            "port": 9223,
+            "breakOnLoad": true
+        }
+    ]
+}
